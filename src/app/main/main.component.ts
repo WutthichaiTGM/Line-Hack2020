@@ -49,7 +49,7 @@ export class MainComponent implements OnInit {
   }
 
   async main() {
-    await liff.init({ liffId: '1655102649-yvP1R5wB' });
+    await liff.init({ liffId: '1655102649-oxL8EWBj' });
     liff.ready.then(() => {
       if (liff.isLoggedIn()) {
         this.getUserProfile();
